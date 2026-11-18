@@ -88,7 +88,7 @@ def s(filename):
 
 @app.route('/')
 def index():
-    return send_file('static/cloudpets.html', mimetype='text/html')
+    return send_file('index.html', mimetype='text/html')
 
 @app.route('/static/<filename>')
 def rstatic(filename):
